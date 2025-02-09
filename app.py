@@ -86,7 +86,7 @@ elif option == "Price Prediction":
 
     with open('df.pkl','rb') as file:
         df = pickle.load(file)
-    file_url = "https://drive.google.com/file/d/1ZqF4DwmwWOE20kZOvu_UZpVXCEW0Kwgx/view"
+    file_url = "https://drive.google.com/uc?export=download&id=1ZqF4DwmwWOE20kZOvu_UZpVXCEW0Kwgx"
 
     response = requests.get(file_url)
     with open("pipeline.pkl", "wb") as file:
