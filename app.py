@@ -5,8 +5,10 @@ import numpy as np
 import plotly.express as px
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+import requests
 import seaborn as sns
 st.set_page_config(page_title='My prediction and analysis')
+
 
 
 
@@ -84,6 +86,11 @@ elif option == "Price Prediction":
 
     with open('df.pkl','rb') as file:
         df = pickle.load(file)
+    file_url = "https://drive.google.com/file/d/1ZqF4DwmwWOE20kZOvu_UZpVXCEW0Kwgx/view"
+
+    response = requests.get(file_url)
+    with open("pipeline.pkl", "wb") as file:
+        file.write(response.content)
 
     with open('pipeline.pkl','rb') as file:
         pipeline = pickle.load(file)
