@@ -88,26 +88,9 @@ elif option == "Price Prediction":
 
     with open('df.pkl','rb') as file:
         df = pickle.load(file)
-    # file_url = "https://drive.google.com/uc?export=download&id=1ZqF4DwmwWOE20kZOvu_UZpVXCEW0Kwgx"
-
-    # response = requests.get(file_url)
-    # with open("pipeline.pkl", "wb") as file:
-    #     file.write(response.content)
-
-    # with open('pipeline.pkl','rb') as file:
-    #     pipeline = pickle.load(file)
-
-    file_id = "1ZqF4DwmwWOE20kZOvu_UZpVXCEW0Kwgx"
-    file_path = "pipeline.pkl"
-
-    # Download the file
-    gdown.download(f"https://drive.google.com/uc?export=download&id={file_id}", file_path, quiet=False)
-
-    # Verify if the file was downloaded correctly
-    if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
-        with open(file_path, 'rb') as file:
-            pipeline = pickle.load(file)
-
+    with open('pipeline.pkl','rb') as file:
+        pipeline = pickle.load(file)
+        
     st.header('Enter the required input ')
 
     property_type = st.selectbox('property type',['flat','house'])
