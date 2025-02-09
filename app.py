@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import requests
 import seaborn as sns
 import gdown
+import os
 st.set_page_config(page_title='My prediction and analysis')
 
 
