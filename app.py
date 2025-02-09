@@ -13,7 +13,7 @@ st.set_page_config(page_title='My prediction and analysis')
 option = st.sidebar.selectbox("Select an option :", ["Home","Analysis Module", "Price Prediction", "Recomender System"])
 if option == "Home":
     st.title("_Welcome To My Home Page_")
-    st.image("D:\cap-proj-01\Gurgaon image.jpg")
+    st.image("Gurgaon image.jpg")
 elif option == "Analysis Module":
     st.title("Analysis Module")
 
