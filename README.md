@@ -13,7 +13,3 @@ This project leverages **machine learning** to predict real estate prices with *
 🔹 Machine Learning Models (Regression, Random Forest, XGBoost, etc.)  
 🔹 Recommendation Algorithms (Content-based, Collaborative Filtering)  
 🔹 Visualization Libraries (Plotly, Seaborn, Matplotlib)  
-
-## 🔗 GitHub Repository  
-📂 **Check out the full project & code here:**  
-[GitHub Repo](https://github.com/Dev-debasish-09/Real_state_project)  
