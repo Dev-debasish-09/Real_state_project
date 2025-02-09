@@ -6,3 +6,4 @@ wordcloud
 matplotlib
 seaborn
 requests
+gdown==4.7.1
