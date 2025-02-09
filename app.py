@@ -7,7 +7,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import requests
 import seaborn as sns
-import godown
+import gdown
 st.set_page_config(page_title='My prediction and analysis')
 
 
