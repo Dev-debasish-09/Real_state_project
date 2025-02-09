@@ -9,5 +9,5 @@ import seaborn as sns
 st.set_page_config(page_title='My prediction and analysis')
 
 st.title("_Welcome To My Home Page_")
-st.image("D:\cap-proj-01\Gurgaon image.jpg")
+st.image("Gurgaon image.jpg")
 
