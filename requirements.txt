@@ -5,4 +5,3 @@ plotly
 wordcloud
 matplotlib
 seaborn
-pickle5
